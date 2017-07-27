@@ -184,8 +184,8 @@ _This can also be used to add extra white space after the number if you set the 
 _**Q:**_ My in-text citations are displayed in bold. How do I change this?
 
 _**A:** If you link your in-text citation to your bibliography, Word formats the link using the 'Heading 2 Character style'. So if that style is configured to use bold, so will the in-text citation. Assuming you cannot or do not want to change that style, there are two possible solutions:_
-##### _Disable linking between in-text citations and bibliographies. This can be done easily be setting the value of **{"citation_as_link"}** to 'no' in the xsl file._
-##### _Format each in-text citation with another character style. This way you will be able to keep using the links between in-text citations and bibliographies. To ease this job, you could use the following macro which you can run every time you insert an in-text citation or once at the end._ 
+* _Disable linking between in-text citations and bibliographies. This can be done easily be setting the value of **citation_as_link** to 'no' in the xsl file._
+* _Format each in-text citation with another character style. This way you will be able to keep using the links between in-text citations and bibliographies. To ease this job, you could use the following macro which you can run every time you insert an in-text citation or once at the end._ 
 ```vbscript
 Sub ApplyCitationStyle()
     Dim stylename As String

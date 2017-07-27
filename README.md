@@ -9,13 +9,15 @@ Everybody who wants to submit a style can do so by contacting one of the project
 ## Installation on Windows (Word 2007/2010/2013)
 To use the bibliography styles, they have to be copied into the Microsoft Word bibliography style directory. This directory can vary depending on where Word is installed: 
 ### Word 2007
-{{
+```
     <winword.exe directory>\Bibliography\Style
-}} On most _32-bits_ machines with Microsoft Word 2007 this will be:
+```
+On most _32-bits_ machines with Microsoft Word 2007 this will be:
 
-{{
+```
     %programfiles%\Microsoft Office\Office12\Bibliography\Style
-}}Once the styles are copied to the directory, they will show up every time Microsoft Word is opened.
+```
+Once the styles are copied to the directory, they will show up every time Microsoft Word is opened.
 
 ### Word 2010
 ```

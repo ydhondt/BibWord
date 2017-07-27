@@ -35,6 +35,7 @@ _**A:** Word has to retrieve the style names of every XSL in the style directory
 
 <a name="Q4"></a>
 _**Q:**_ Why do I get 'BO' instead of a number when using certain styles?
+
 _**A:** 'BO' is often printed when the BibOrder number is not available. Use the [BibWord Extender](BibWord-Extender) tool on the document to add the missing numbers._
 
 <a name="Q5"></a>
@@ -44,6 +45,7 @@ _**A:** Although the usage of a **{"**"}** is not mandatory, it often indicates 
 
 <a name="Q6"></a>
 _**Q:**_ Can I request to get a certain style?
+
 _**A:** **No.** Using [BibWord](BibWord), you really should try to create the style yourself. Keep in mind that even if you find someone prepared to create the style for you that you will have to provide him/her with detailed information about the formatting guidelines for your style. Messages containing "I need style x." will most likely be ignored._
 
 <a name="Q7"></a>

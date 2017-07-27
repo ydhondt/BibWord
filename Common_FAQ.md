@@ -10,7 +10,7 @@
 * [How do I change the name of one of the pre-defined Word Bibliography styles?](#Q8)
 * [How can I manually update a citation field?](#Q9) 
 
-{anchor:Q1}
+{Q1}
 **Q:** Is it possible to group several citations? Currently I have something like {"[1](1)[2](2)"} and I want {"[1,2](1,2)"}.
 
 _**A:** Yes. You can add a second source to a citation by using the '\m' switch and the tag of the source you want to add. In Word 2007, if you want to add a source with tag 'Bee99' to an existing citation, right click the citation and select 'Edit Field...'. It will show you something like 'CITATION Gup97 \l 2060'. To add the extra source, change it to 'CITATION Gup97 \l 2060 \m Bee99'. For more information, also see the Microsoft Office online help topic on the [CITATION](http://office.microsoft.com/en-us/word/HA102157071033.aspx) field code._
@@ -18,7 +18,7 @@ _**A:** Yes. You can add a second source to a citation by using the '\m' switch 
 _Alternatively, you can put your cursor inside any in-text citation, then go to 'References' tab in the ribbon and click 'Insert Citation'._
 
 
-{anchor:Q2}
+[Q2]
 **Q:** Is it possible to order the different sources in an in-text citation by year, author, ...?
 
 _**A:** No. Word 2007 passes the source of each citation in a group of in-text citations separately to the stylesheet. Hence it is not possible to put any ordering logic into the formatting process. However, you can set the order yourself in your citation field. For example 'CITATION \l 2060 Gup97 \m Bee99' while show the citation with tag 'Gup97' before the citation with tag 'Bee99' while 'CITATION \l 2060 Bee99 \m Gup97' will do the opposite._

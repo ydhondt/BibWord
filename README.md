@@ -69,7 +69,7 @@ On most Macs with Microsoft Word 2011 this will be:
 ```
     /Applications/Microsoft Office 2011/Microsoft Word.app/Contents/Resources/Style/
 ```
-### Installation for Word 2016 for Mac (version 15.17.0 and up)
+### Word 2016 (version 15.17.0 and up)
 To use the bibliography styles, place them in the following folder
 ```
     /Library/AppSupport/Microsoft/Office365/Citations/

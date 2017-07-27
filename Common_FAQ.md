@@ -10,7 +10,7 @@
 * [How do I change the name of one of the pre-defined Word Bibliography styles?](#Q8)
 * [How can I manually update a citation field?](#Q9) 
 
-{Q1}
+<a name="Q1"></a>
 **Q:** Is it possible to group several citations? Currently I have something like {"[1](1)[2](2)"} and I want {"[1,2](1,2)"}.
 
 _**A:** Yes. You can add a second source to a citation by using the '\m' switch and the tag of the source you want to add. In Word 2007, if you want to add a source with tag 'Bee99' to an existing citation, right click the citation and select 'Edit Field...'. It will show you something like 'CITATION Gup97 \l 2060'. To add the extra source, change it to 'CITATION Gup97 \l 2060 \m Bee99'. For more information, also see the Microsoft Office online help topic on the [CITATION](http://office.microsoft.com/en-us/word/HA102157071033.aspx) field code._
